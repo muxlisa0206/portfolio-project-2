@@ -1,0 +1,15 @@
+.swiper-pagination-bullet-active{
+    background-color: orange;
+}
+
+.swiper-pagination{
+    left: 200px !important;
+    bottom: 50px !important;
+}
+
+@media (max-width: 640px) {
+    .swiper-pagination{
+        left: 80px !important;
+        bottom: 80px !important;
+    }
+}
